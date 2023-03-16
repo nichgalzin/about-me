@@ -191,7 +191,7 @@ svg {
   }
 
   #menu a:active{
-    font-size: 2.2rem;
+    font-size: 4.5vw;
   }
 
 
@@ -423,3 +423,121 @@ footer a {
     align-items: center;
 }
 
+
+@media screen and (max-width: 550px) {
+
+    /* Banner and nav */
+    
+    h1 {
+        font-size: 12vw;
+    }
+    
+    .box-2 {
+        width: 75%;
+    }
+
+    .box-3 {
+        background-color: #403D39;
+        width: 50%;
+        height: 4vw;
+    }
+
+    .banner {
+        margin-top: 10vw;
+    }
+
+    #openbtn {
+        top: 15vw;
+    }
+
+    /* Journey section */
+
+    .journey-txt {
+        margin: 10vw 5vw 0 5vw;
+    }
+
+    .journey-txt h2 {
+        font-size: 10vw;
+    }
+
+    .journey-photo img {
+        width: 40vw;
+        margin-top: 3vw;
+    }
+
+    .journey-photo {
+        flex-wrap: wrap;
+    }
+
+    /* Coding section */
+
+    #coding {
+        margin-top: 0 auto;
+        display: block;
+    }
+
+    #coding h2 {
+        margin-left: 5vw;
+        font-size: 10vw;
+    }
+    
+    #coding p {
+        margin: 10vw 5vw 0 5vw;
+        padding: 5vw;
+    }
+
+    .coding-photo {
+        flex-direction: row;
+        padding: 5vw;
+    }
+
+    .coding-photo img {
+        width: 40vw;
+    }
+
+    /* Examples */
+
+    .examples-header h2 {
+        font-size: 12vw;
+        padding: 5vw;
+    }
+
+    .slide-card img {
+        width: 74vw;
+    } 
+    .description {
+        width: 70vw;
+    }
+
+    .next {
+        right: 5vw;
+    }
+    
+    .prev {
+    
+        left: 5vw;
+    }
+
+    .dot {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .link-btn {
+        height: 10vw;
+        width: 30vw;
+        font-size: 3.5vw;
+        left: 38vw;
+    }
+
+    /* Footer */
+
+    .footer {
+        height: 15vw;
+        margin-top: 10vw;
+    }
+
+
+
+    
+}
