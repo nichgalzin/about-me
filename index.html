@@ -18,11 +18,28 @@
             <h1>Nich Galzin</h1>
         </div>
         <p>running <em>away</em> from the circus</p>
-        <nav>
 
+        <nav role="navigation" aria-label="Main Navigation">
+            <button id="openbtn" aria-expanded="false">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>   
+                </svg>
+            </button>
+            <div id="menu">
+                <ul>
+                    <li><a href="javascript:void(0)" id="closebtn">&times;</a></li>
+                    <li><a href="#journey">Background</a></li>
+                    <li><a href="#coding">Why Coding?</a></li>
+                    <li><a href="#examples">Examples of work</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
+
     <div class="box-2"></div>
+
     <div class="banner">
         <div class="sub-head">
             <h2>KEEP MOVING</h2>
@@ -36,25 +53,28 @@
     </div>
 
     <section id="journey">
+
         <div class="journey-txt">
             <h2>FROM CIRCUS...</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
                 <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
+
         <div class="journey-photo flex">
-            <div>
+            <figure>
                 <img src="./resources/Images/Square photos/square-nich-ais-pole.jpg" alt="">
-            </div>
-            <div>
+            </figure>
+            <figure>
                 <img src="./resources/Images/Square photos/square-nich-pole.jpg" alt="">
-            </div>
-            <div>
+            </figure>
+            <figure>
                 <img src="./resources/Images/Square photos/nich-wall-squarejpg.jpg" alt="">
-            </div>
-            <div>
+            </figure>
+            <figure>
                 <img src="./resources/Images/Square photos/wheel-quimera.jpg" alt="">
-            </div>
+            </figure>
         </div>
+
         <div class="divider wrapper">
             <div class="box-a"></div>
             <div class="box-b"></div>
@@ -62,22 +82,87 @@
         </div>
     </section>
     <section id="coding" class="wrapper">
+        
         <div class="coding-txt">
             <h2 class="reverse">TO CODING:</h2>
             <p class="white-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p class="white-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
+       
         <div class="coding-photo flex">
-            <div>
-                <img src="./resources/Images/Square photos/square-headshot.jpg" alt="">
-            </div>
-            <div>
+            <figure>
+                <img src="./resources/Images/Square photos/square-headshot.jpg" alt="">            
+            </figure>
+            
+            <figure>
                 <img src="./resources/Images/Square photos/square-headshot-1.jpg" alt="">
-            </div>
+            </figure>
         </div>
     </section>
     <section id="examples">
+        <div class="examples-header">
+            <h2 class="reverse big">EXAMPLES OF WORK</h2>
+        </div>
+        <div class="slideshow-container flex">
+            <figure class="slide-card">
+                <img src="./resources/Images/Screenshoots/hobby-page-screenshot.png" alt="Screenshoot of website about green wood working.">
+            </figure>
+            <div class="description">
+                <h2>Hobby Page</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="https://nichgalzin.github.io/greenwood/" target="_blank"><button class="link-btn"><em>Go to site</em></button></a>
+            </div>
 
+            <figure class="slide-card">
+                <img src="./resources/Images/Screenshoots/blob-survival-screenshot.png" alt="Screenshoot of the game page Blob Survival.">
+            </figure>
+            <div class="description">
+                <h2>Game Project</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="https://nichgalzin.github.io/blob-survival/" target="_blank"><button class="link-btn"><em>Go to site</em></button></a>
+
+            </div>
+
+            <figure class="slide-card">
+                <img src="./resources/Images/Screenshoots/movie-data-screenshot.png" alt="Screenshoot of a webpage about the movies of Wes Anderson.">
+            </figure>
+            <div class="description">
+                <h2>Movie data</h2 data>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="https://nichgalzin.github.io/movie-data/" target="_blank"><button class="link-btn"><em>Go to site</em></button></a>
+
+            </div>
+
+            <figure class="slide-card">
+                <img src="./resources/Images/Screenshoots/three-of-penntacles.png" alt="Screenshoot of practice website about tarot readings.">
+            </figure>
+            <div class="description">
+                <h2>Club website</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="https://nichgalzin.github.io/club-practice-site/" target="_blank"><button class="link-btn"><em>Go to site</em></button></a>
+            </div>
+
+            <button id="prev" class="prev">&#10094;</button>
+            <button id="next" class="next">&#10095;</button>
+            
+            <div>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
     </section>
+    <footer class="footer flex">
+        <div>
+            <a href="#">Back to top</a>
+        </div>
+        <div class="links flex">
+            <p>Repository for this site</p>
+            <a href="https://github.com/nichgalzin/about-me" target="_blank">
+                <img src="./resources/Images/icons/8546919_github_square_icon.png" alt="Github icon">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
