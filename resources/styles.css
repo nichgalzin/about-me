@@ -84,7 +84,6 @@ header p {
 .banner img {
     width: 100%;
     z-index: 0;
-    margin: 0 2rem;
 }
 
 .sub-head {
@@ -122,16 +121,13 @@ header p {
 
 .box-2 {
     background-color: #CCC5B9;
-    grid-column: 1 / span 12;
     height: 5vw;
     margin-top: 5vw;
     margin-right: 10vw;
 }
 
-/* Hamburger menu */
 
-
-/* Nav menu */
+/* Hamburger nav menu */
 
 #openbtn {
     height: 4rem;
@@ -195,7 +191,7 @@ svg {
   }
 
 
-/* Journey to coding section */
+/* Journey section */
 
 .journey-txt {
     margin: 8vw 2vw 0 2vw;
@@ -255,7 +251,7 @@ svg {
     grid-column: 8 / span 5;
 }
 
-/* Background Section */
+/* Coding Section */
 
 #coding {
     margin: -10vw auto;
@@ -274,9 +270,6 @@ svg {
     border-radius: 5px;
 }
 
-#coding h2 {
-    margin-left: 2vw;
-}
 
 .coding-photo {
     grid-column: 7 / span 6;
@@ -286,7 +279,7 @@ svg {
 }
 
 .coding-photo img {
-    width: 20vw;
+    width: 32vw;
     margin: 2vw;
 }
 
@@ -429,9 +422,11 @@ footer a {
     /* Banner and nav */
     
     h1 {
-        font-size: 12vw;
+        font-size: 10vw;
     }
-    
+    header p {
+        font-size: 3.5vw;
+    }
     .box-2 {
         width: 75%;
     }
@@ -448,6 +443,10 @@ footer a {
 
     #openbtn {
         top: 15vw;
+    }
+
+    #menu a {
+        font-size: 6vw;
     }
 
     /* Journey section */
@@ -540,4 +539,94 @@ footer a {
 
 
     
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Header and banner */
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    header p {
+        font-size: 2vw;
+    }
+
+    .box-2{
+        height: 2vw;
+        margin-top: 1vw;
+        margin-right: 20vw;
+    }
+
+    .banner {
+        height: 35vw;
+        margin-top: 2vw;
+    }
+
+    .sub-head {
+        margin-left: 12vw;
+
+    }
+
+    .sub-head h2 {
+        margin-left: 1vw;
+        font-size: 6vw;
+
+    }
+
+    .inset h2 {
+        margin-left: 1vw;
+        font-size: 6vw;
+
+    }
+
+    .box-1 {
+        height: 5vw;
+        width: 30vw;
+        top: 13vw;
+        left: 30vw;
+        transform: rotate(-6deg);
+    }
+
+    .box-1 p {
+        font-size: 2vw;
+    }
+
+    /* Hamburher menu */
+
+    #openbtn {
+        height: 6rem;
+        width: 6rem;
+        top: 2vw;
+        right: 6vw;
+    }
+    
+    #menu a {
+        font-size: 3vw;
+    }
+
+     #menu a:active{
+        font-size: 3.25vw;
+    }
+
+    /* Journer section */
+
+    .journey-txt h2 {
+        margin-left: 10vw;
+    }
+
+    .journey-txt p {
+        padding: 2vw 10vw;
+    }
+
+    /* Coding section */
+
+    .coding-photo img {
+        width: 20vw;
+    }
 }

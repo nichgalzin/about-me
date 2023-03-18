@@ -9,11 +9,18 @@ const closeBtn = document.getElementById('closebtn');
 
 
 function openNav() {
-    menu.style.width = '45%';
+
+    if (window.innerWidth < 550) {
+        menu.style.width = '50%';
+    } else {
+        menu.style.width = '30%';
+
+    }
     openBtn.setAttribute('aria-expanded', true);
   }
   
   function closeNav() {
+    
     menu.style.width = '0';
     openBtn.setAttribute('aria-expanded', false);
   }
