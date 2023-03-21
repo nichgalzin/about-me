@@ -198,8 +198,10 @@ svg {
 }
 
 .journey-txt p {
-    padding: 2vw;
-    line-height: 1.25rem;
+    padding: 0 2vw;
+    margin-top: 2vw;
+    line-height: 1.5rem;
+    text-indent: 4vw;
 }
 
 .journey-txt h2 {
@@ -259,10 +261,10 @@ svg {
 }
 
 .coding-txt {
-    grid-column: 2 / span 5;
+    grid-column: 2 / span 6;
 }
 
-#coding p{
+#coding p {
     padding: 2vw;
     line-height: 1.5rem;
     margin: 2vw 0;
@@ -272,7 +274,7 @@ svg {
 
 
 .coding-photo {
-    grid-column: 7 / span 6;
+    grid-column: 8 / span 6;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -419,7 +421,7 @@ footer a {
 
 @media screen and (max-width: 550px) {
 
-    /* Banner and nav */
+/* Banner and nav */
     
     h1 {
         font-size: 10vw;
@@ -621,7 +623,8 @@ footer a {
     }
 
     .journey-txt p {
-        padding: 2vw 10vw;
+        padding: 0 10vw;
+        margin-top: 1vw;
     }
 
     /* Coding section */
