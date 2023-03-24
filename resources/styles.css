@@ -18,6 +18,7 @@ h2 {
 
 p {
     font-family: 'Quattrocento', serif;
+    text-indent: 2rem;
 }
 
 a {
@@ -312,12 +313,12 @@ svg {
 }
 
 .slide-card img {
-    width: 54vw;
+    width: 40vw;
     display: inline-block;
 } 
 
 .description {
-    width: 50vw;
+    width: 36vw;
     background-color: #CCC5B9;
     padding: 2vw;
 }
@@ -326,7 +327,7 @@ svg {
     font-size: 5vw;
 }
 
-.description p{
+.description p {
     margin-top: 2vw;
     line-height: 1.5em;
 }
@@ -342,12 +343,12 @@ svg {
 }
 
 .next {
-    right: 15vw;
+    right: 25vw;
 }
 
 .prev {
 
-    left: 15vw;
+    left: 25vw;
 }
 
 .prev:hover, .next:hover {
@@ -355,8 +356,8 @@ svg {
   }
 
   .dot {
-    height: 2vw;
-    width: 2vw;
+    height: 1vw;
+    width: 1vw;
     margin: 2vw 2vw;
     cursor: pointer;
     display: inline-block;
@@ -377,7 +378,7 @@ svg {
     font-size: 2vw;
     position: relative;
     margin-top: 2vw;
-    left: 35vw;
+    left: 20vw;
     padding: .5rem;
     text-align: center;
     font-family: 'Quattrocento', serif;
@@ -632,4 +633,38 @@ footer a {
     .coding-photo img {
         width: 20vw;
     }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1200px) {
+    /*Examples section */
+
+    
+    .slide-card img {
+        width: 54vw;
+    } 
+    .description {
+        width: 50vw;
+    }
+
+    .next {
+        right: 15vw;
+    }
+    
+    .prev {
+    
+        left: 15vw;
+    }
+
+    .dot {
+        height: 2vw;
+        width: 2vw;
+    }
+
+    .link-btn {
+        height: 7vw;
+        width: 20vw;
+        left: 28vw;
+        font-size: 3.5vw;
+    }
+
 }
