@@ -13,7 +13,7 @@ h1 {
 h2 {
     font-family: 'Oswald', sans-serif;
     color: #252422;
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 p {
@@ -72,7 +72,7 @@ header {
 
 header p {
     font-size: 3vw;
-    margin-left: 3vw;
+    margin-left: -2vw;
 }
 
 .banner {
@@ -88,7 +88,7 @@ header p {
 }
 
 .sub-head {
-    margin-left: 12vw;
+    margin-left: 15vw;
 }
 
 .inset {
@@ -158,7 +158,6 @@ svg {
 }
 
 #menu {
-
     width: 0; 
     position: fixed; 
     z-index: 6; 
@@ -168,7 +167,7 @@ svg {
     opacity: 0.9;
     padding-top: 3rem; 
     transition: width .5s; 
-    
+    max-width: 400px;
   }
 
   #menu a {
@@ -195,7 +194,7 @@ svg {
 /* Journey section */
 
 .journey-txt {
-    margin: 8vw 2vw 0 2vw;
+    margin: 6vw 2vw 0 2vw;
 }
 
 .journey-txt p {
@@ -312,13 +311,15 @@ svg {
     display: none;
 }
 
+
+
 .slide-card img {
-    width: 40vw;
+    width: 54vw;
     display: inline-block;
 } 
 
 .description {
-    width: 36vw;
+    width: 50vw;
     background-color: #CCC5B9;
     padding: 2vw;
 }
@@ -343,12 +344,12 @@ svg {
 }
 
 .next {
-    right: 25vw;
+    right: 18vw;
 }
 
 .prev {
 
-    left: 25vw;
+    left: 18vw;
 }
 
 .prev:hover, .next:hover {
@@ -370,15 +371,16 @@ svg {
     background-color: #EB5E28;
   }
 
-
   .link-btn {
     border: none;
     height: 5vw;
     width: 15vw;
+    max-width: 200px;
+    max-height: 150px;
     font-size: 2vw;
     position: relative;
     margin-top: 2vw;
-    left: 20vw;
+    left: 17vw;
     padding: .5rem;
     text-align: center;
     font-family: 'Quattrocento', serif;
@@ -425,7 +427,7 @@ footer a {
 /* Banner and nav */
     
     h1 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
     header p {
         font-size: 3.5vw;
@@ -445,7 +447,7 @@ footer a {
     }
 
     #openbtn {
-        top: 15vw;
+        top: 11vw;
     }
 
     #menu a {
@@ -537,11 +539,8 @@ footer a {
     .footer {
         height: 15vw;
         margin-top: 10vw;
+        font-size: 13px;
     }
-
-
-
-    
 }
 
 @media screen and (min-width: 900px) {
@@ -558,6 +557,7 @@ footer a {
 
     header p {
         font-size: 2vw;
+        margin-left: 1vw;
     }
 
     .box-2{
@@ -572,19 +572,19 @@ footer a {
     }
 
     .sub-head {
-        margin-left: 12vw;
+        margin-left: 10vw;
 
     }
 
     .sub-head h2 {
         margin-left: 1vw;
-        font-size: 6vw;
+        font-size: 5vw;
 
     }
 
     .inset h2 {
         margin-left: 1vw;
-        font-size: 6vw;
+        font-size: 5vw;
 
     }
 
@@ -603,8 +603,6 @@ footer a {
     /* Hamburher menu */
 
     #openbtn {
-        height: 6rem;
-        width: 6rem;
         top: 2vw;
         right: 6vw;
     }
@@ -620,51 +618,69 @@ footer a {
     /* Journer section */
 
     .journey-txt h2 {
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
 
     .journey-txt p {
-        padding: 0 10vw;
+        padding: 0 15vw;
         margin-top: 1vw;
     }
 
     /* Coding section */
 
     .coding-photo img {
-        width: 20vw;
+        width: 286px;
     }
 }
 
-@media screen and (min-width: 551px) and (max-width: 1200px) {
-    /*Examples section */
+@media screen and (min-width: 920px) {
 
     
-    .slide-card img {
-        width: 54vw;
+     /*Examples section */
+
+     .examples-header h2 {
+        font-size: 120px;
+     }
+
+     .slide-card {
+        max-width: 500px;
+     }
+
+     .slide-card img {
+        max-width: 500px;
     } 
     .description {
-        width: 50vw;
+        max-width: 450px;
+        padding: 25px;
+    }
+
+    .description h2 {
+        font-size: 60px;
+    }
+
+    .description p {
+        font-size: 16px;
     }
 
     .next {
-        right: 15vw;
+        right: 18vw;
     }
     
     .prev {
-    
-        left: 15vw;
+        left: 18vw;
     }
 
     .dot {
-        height: 2vw;
-        width: 2vw;
+        height: 1vw;
+        width: 1vw;
     }
 
     .link-btn {
-        height: 7vw;
-        width: 20vw;
-        left: 28vw;
-        font-size: 3.5vw;
+        height: 200pxvw;
+        width: 300px;
+        left: 200px;
+        font-size: 30px;
     }
-
 }
+
+

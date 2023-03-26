@@ -11,10 +11,9 @@ const closeBtn = document.getElementById('closebtn');
 function openNav() {
 
     if (window.innerWidth < 550) {
-        menu.style.width = '50%';
+        menu.style.width = '55%';
     } else {
         menu.style.width = '30%';
-
     }
     openBtn.setAttribute('aria-expanded', true);
   }
